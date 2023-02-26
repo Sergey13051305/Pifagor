@@ -1,13 +1,13 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
-#define TASK_1  //Таблица Умножения
-//#define TASK_2  //Таблица пифагора
+#define TASK_1  //РўР°Р±Р»РёС†Р° РЈРјРЅРѕР¶РµРЅРёСЏ
+//#define TASK_2  //РўР°Р±Р»РёС†Р° РїРёС„Р°РіРѕСЂР°
 void main()
 {
 	setlocale(LC_ALL, "Rus");
 			system("COLOR B4");
 #if defined TASK_1
-	cout << "\t\t\t\t\t\tТаблица умножения " << endl << endl;
+	cout << "\t\t\t\t\t\tРўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ " << endl << endl;
 	int z = 1;
 	for (int x = 2; x <= 9; x++)
 	{
@@ -18,16 +18,16 @@ void main()
 		}		
 			cout <<"\t" << endl;
 	}
-#endif TASK_1 //Таблица Умножения
+#endif TASK_1 //РўР°Р±Р»РёС†Р° РЈРјРЅРѕР¶РµРЅРёСЏ
 
 #if defined TASK_2
 	{
 		setlocale(LC_ALL, "Rus");
-		cout << "\t\t\tТаблица пифагора" << "\n\n" << "   ";
+		cout << "\t\t\tРўР°Р±Р»РёС†Р° РїРёС„Р°РіРѕСЂР°" << "\n\n" << "   ";
 		int x = 2, z;
 		while (x>=2 && x <= 9)
 		{			
-			if (x >= 4)             //Для смещения от центра т.к начинаются там двузначные числа
+			if (x >= 4)             //Р”Р»СЏ СЃРјРµС‰РµРЅРёСЏ РѕС‚ С†РµРЅС‚СЂР° С‚.Рє РЅР°С‡РёРЅР°СЋС‚СЃСЏ С‚Р°Рј РґРІСѓР·РЅР°С‡РЅС‹Рµ С‡РёСЃР»Р°
 			{
 				cout << " ";
 			}
@@ -46,7 +46,7 @@ void main()
 			cout << "\t" << endl;
 		}
 	}
-#endif TASK_2 //Таблица пифагора
+#endif TASK_2 //РўР°Р±Р»РёС†Р° РїРёС„Р°РіРѕСЂР°
 	
 	
 }
